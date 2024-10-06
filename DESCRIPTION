@@ -1,0 +1,17 @@
+Package: PPPNep1
+Type: Package
+Title:  DMRT comparision using integrated Viollion as well as Box plot 
+Version: 0.1.0
+Author: Bikas Basnet
+Maintainer: The package maintainer <bikasbasnet2001@gmail.com>
+Description: This package provides functions for the manual calculation of the Least Significant Difference (LSD) and for visualizing results using integrated box and violin plots based on mean values and significance letters.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Imports:
+    ggplot2,
+    agricolae,
+    dplyr,
+    ggpubr,  
+    rlang
